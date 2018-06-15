@@ -6,3 +6,21 @@
 /*
 * Custom
 */
+
+
+body{
+  font-size: 0.9375vw;
+  background-color: gray;
+}
+.wrapper{
+  margin: 0 6.6em;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@import "partials/header";

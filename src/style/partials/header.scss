@@ -1,0 +1,59 @@
+#header{
+  padding-top: 3.1em;
+}
+#header .logo{
+  width: 7em;
+}
+#header .menu{
+  width: 2.4em;
+}
+.top-nav a{
+  display: block;
+  transition:350ms;
+  text-decoration:none;
+}
+.top-nav{
+  flex: 0.6 1 auto;
+  margin-left: -4em;
+}
+#header ul{
+  margin-bottom: 0;
+  list-style: none;
+  padding: 0px;
+}
+#header ul a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 2em;
+  text-align:center;
+}
+#header ul a:hover {
+  letter-spacing: 5px;
+}
+#header ul a:after,
+#header ul a:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+#header ul a:hover:after,
+#header ul a:hover:before {
+  backface-visibility: hidden;
+  border-color: #55bff1;
+  transition: width 350ms ease-in-out;
+  width: 100%;
+  margin-left: -2px;
+
+}
+#header .menu{
+  width: 2.3em;
+}
