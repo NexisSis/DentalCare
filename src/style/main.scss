@@ -6,11 +6,13 @@
 /*
 * Custom
 */
-
+$main-color: #55bff1;
+$main-color-2:#90d7ed;
 
 body{
   font-size: 0.9375vw;
   background-color: gray;
+  font-family: 'Roboto', sans-serif;
 }
 .wrapper{
   margin: 0 6.6em;
@@ -24,3 +26,4 @@ body{
 }
 
 @import "partials/header";
+@import "partials/mainBlock";

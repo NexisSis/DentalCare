@@ -1,4 +1,8 @@
 #header{
+  position:fixed;
+  width: 100%;
+}
+.header-wrapper{
   padding-top: 3.1em;
 }
 #header .logo{
@@ -32,6 +36,7 @@
 }
 #header ul a:hover {
   letter-spacing: 5px;
+  color: $main-color;
 }
 #header ul a:after,
 #header ul a:before {
@@ -48,7 +53,7 @@
 #header ul a:hover:after,
 #header ul a:hover:before {
   backface-visibility: hidden;
-  border-color: #55bff1;
+  border-color: $main-color;
   transition: width 350ms ease-in-out;
   width: 100%;
   margin-left: -2px;

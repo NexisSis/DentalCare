@@ -1,0 +1,52 @@
+#main{
+}
+.main-location{
+  width: 17%;
+  margin-top: 7.5em;
+
+}
+.main-content{
+  height: 70em;
+  max-height: 100vh;
+  min-height: 40em;
+  background-image:url(../img/main-bg.png);
+  background-size: cover;
+}
+#main {
+  h1{
+    color:$main-color;
+    font-weight: bold;
+    font-size: 2.7em;
+  }
+  h2{
+    color:$main-color-2;
+    font-size:1.7em;
+    line-height: 1.7em;
+  }
+}
+.main-horizontal-line-1{
+  width: 8em;
+  height: 0.278em;
+  background-color: $main-color;
+  border-radius: 4px;
+  margin: 2em 0;
+}
+.main-location-2{
+  position: absolute;
+  transform: rotate(270deg);
+  left: -2.5em;
+}
+.main-location-3{
+  position: absolute;
+  transform: rotate(90deg);
+  right: -2.5em;
+  img{
+    transform: rotate(-90deg);
+  }
+}
+.main-text-1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
