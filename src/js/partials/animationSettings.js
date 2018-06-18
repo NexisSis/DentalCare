@@ -13,3 +13,21 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 900);
 
 });
+
+// menu hover
+$(function() {
+    $('#menu,#top-nav ul').mouseenter(function() {
+        $('#header .hover-menu-bg').css('opacity', '1');
+        $('#header ul li ul').css('display','inherit');
+        $('#header ul li ul').css('opacity', '1');
+        $('#header ul li a').css('color', 'black');
+        $('#header ul li ul li a').css('color','#757575');
+
+    });
+    $('#header .hover-menu-bg').mouseleave(function () {
+        $('#header .hover-menu-bg').css('opacity', '0');
+        $('#header ul li ul').css('display','none');
+        $('#header ul li ul').css('opacity', '0');
+        $('#header ul li a').css('color', 'white');
+    });
+});

@@ -11,8 +11,11 @@ $main-color-2:#90d7ed;
 
 body{
   font-size: 0.9375vw;
-  background-color: gray;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
+}
+.line-break{
+  width:100%;
 }
 .wrapper{
   margin: 0 6.6em;
@@ -24,6 +27,14 @@ body{
   align-items: center;
   width: 100%;
 }
-
+.smart-break{
+  display: block;
+}
+.half{
+  width: 50%;
+}
 @import "partials/header";
 @import "partials/mainBlock";
+@import "partials/honors";
+@import "partials/about";
+@import "partials/help";

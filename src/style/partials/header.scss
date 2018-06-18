@@ -1,64 +1,93 @@
 #header{
-  position:fixed;
+  position:absolute;
   width: 100%;
+  .logo{
+    width: 7em;
+  }
+  .menu{
+    width: 2.3em;
+  }
+  .hover-menu-bg{
+    width: 100%;
+    height: 23em;
+    position: absolute;
+    background-color: #dadadae6;
+    z-index: 0;
+    opacity: 0;
+    transition:1s;
+  }
+  .header-wrapper{
+    padding-top: 3.1em;
+    z-index: 1;
+    position: relative;
+  }
+  .top-nav a{
+    display: block;
+    transition:350ms;
+    text-decoration:none;
+  }
+  .top-nav{
+    flex: 0.6 1 auto;
+    margin-left: -4em;
+  }
+  ul{
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0px;
+    a{
+      color: white;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 2em;
+    }
+    a:hover{
+      letter-spacing: 5px;
+      color: $main-color!important;
+    }
+    a:after,a:before{
+      backface-visibility: hidden;
+      border: 1px solid rgba(#fff, 0);
+      bottom: 0px;
+      content: " ";
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      transition: all 280ms ease-in-out;
+      width: 0;
+    }
+    a:hover:after,a:hover:before{
+      backface-visibility: hidden;
+      border-color: $main-color;
+      transition: width 350ms ease-in-out;
+      width: 100%;
+      margin-left: -2px;
+    }
+  }
 }
-.header-wrapper{
-  padding-top: 3.1em;
-}
-#header .logo{
-  width: 7em;
-}
-#header .menu{
-  width: 2.4em;
-}
-.top-nav a{
-  display: block;
-  transition:350ms;
-  text-decoration:none;
-}
-.top-nav{
-  flex: 0.6 1 auto;
-  margin-left: -4em;
-}
-#header ul{
-  margin-bottom: 0;
-  list-style: none;
-  padding: 0px;
-}
-#header ul a{
-  color: white;
-  text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 2em;
-  text-align:center;
-}
-#header ul a:hover {
-  letter-spacing: 5px;
-  color: $main-color;
-}
-#header ul a:after,
-#header ul a:before {
-  backface-visibility: hidden;
-  border: 1px solid rgba(#fff, 0);
-  bottom: 0px;
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  transition: all 280ms ease-in-out;
-  width: 0;
-}
-#header ul a:hover:after,
-#header ul a:hover:before {
-  backface-visibility: hidden;
-  border-color: $main-color;
-  transition: width 350ms ease-in-out;
-  width: 100%;
-  margin-left: -2px;
 
-}
-#header .menu{
-  width: 2.3em;
+#header{
+  ul{
+    li{
+      ul{
+        opacity: 0;
+        transition:1s;
+        position: absolute;
+        margin-top: 2em;
+        text-transform: uppercase;
+        color: white;
+        li{
+          color: #757575;
+          font-weight: bold;
+          font-size: 0.85em;
+          margin-bottom: 1.3em;
+          a{
+            text-align:left;
+            width: max-content;
+          }
+        }
+      }
+    }
+  }
 }
