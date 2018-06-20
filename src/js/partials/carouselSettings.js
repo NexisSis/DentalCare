@@ -1,4 +1,4 @@
-// honors carousel init
+// testimonials carousel
 $(function() {
     $('.jcarousel')
         .jcarousel({

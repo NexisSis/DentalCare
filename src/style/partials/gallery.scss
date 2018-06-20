@@ -1,0 +1,14 @@
+.gallery-location-1{
+  text-align: center;
+  transform: rotate(270deg);
+  display: block;
+}
+.gallery-text-1{
+  font-size: 2.7em;
+  font-weight: bold;
+  color:$main-color;
+}
+.gallery-bg{
+  background-image:url('../img/gallery-bg.png');
+  background-size: cover;
+}

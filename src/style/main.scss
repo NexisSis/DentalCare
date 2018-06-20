@@ -33,8 +33,16 @@ body{
 .half{
   width: 50%;
 }
+.quarter{
+  width: 25%;
+}
+.three-quarter{
+  width: 75%;
+  }
 @import "partials/header";
 @import "partials/mainBlock";
 @import "partials/honors";
 @import "partials/about";
 @import "partials/help";
+@import "partials/gallery";
+@import "partials/testimonials";
