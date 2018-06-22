@@ -1,5 +1,16 @@
 #main{
 }
+.h1-descr{
+  transform: rotate(270deg);
+  display: block;
+  color: white;
+  position: absolute;
+  margin-top: 1.9em;
+  margin-left: -3.3em;
+  font-size: 1.75em;
+  font-weight: normal;
+  color:$main-color;
+}
 .main-location{
   width: 17%;
   margin-top: 20em;
