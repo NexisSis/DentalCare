@@ -28,19 +28,24 @@
             </div>
         </div>
         <div class="half contact-bg">
-            <div class="contact-wrapper">
+            <div class="contact-wrapper-2">
                 <span class="contact-text-4">Contact Us</span>
                 <div class="contact-horizontal-line"></div>
-                <form>
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="tel" name="phone" placeholder="Phone">
-                    <input type="" name="message" placeholder="Message">
-                    <select>
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                    <input type="submit">
+                <form class="contact-flex">
+                    <input required type="text" class="contact-name-input" name="name" placeholder="Name">
+                    <input required type="email" class="contact-email-input" name="email" placeholder="Email">
+                    <input required type="tel" class="contact-tel-input" name="phone" placeholder="Phone">
+                    <textarea required class="contact-message-input" name="message" placeholder="Message"></textarea>
+                    <div>
+                        <select required name="isNewClient">
+                            <option selected="" disabled="" value="yes">New patient</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                        <div class="contact-text-5">Please select one of the items, for faster response.</div>
+                    </div>
+                    <input class="contact-submit" type="submit" value="send">
+                    <div class="contact-submit-hover"></div>
                 </form>
             </div>
         </div>

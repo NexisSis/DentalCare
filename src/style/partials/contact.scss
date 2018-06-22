@@ -62,5 +62,91 @@
   color:$main-color;
 }
 .contact-horizontal-line{
+  margin-top: 1.8em;
+  margin-bottom: 4em;
+  width: 7.8em;
+  border-radius: 10px;
+  margin-left: 0.3em;
+  height: 0.24em;
+  background-color: $main-color;
+}
+#contact{
+  input,textarea{
+    overflow: visible;
+    background-color: #fff7ea05;
+    border: .01em solid #b3b3b3;
+    padding: .6em 1.4em;
+    margin-bottom: 3em;
+    width: 11.6em;
+    color: #b2b3b3;
+  }
+  select{
+    @extend input;
+    margin-right: 0;
+  }
+  input::placeholder,textarea::placeholder,select::placeholder{
+    color:#b2b3b3;
+  }
+  input:focus,textarea:focus,select:focus {
+    color: $main-color;
+    border: 0.01em solid $main-color;
+    outline-offset: 0px !important;
+    outline: none !important;
+  }
+  input:focus::placeholder,textarea:focus::placeholder,select:focus::placeholder{
+    color: $main-color;
+  }
+  textarea{
+    width: 26em;
+    height: 9em;
+  }
+}
+.contact-location-1{
+  img{
+    width: 1.1em;
+  }
+}
+.contact-wrapper-2{
+  padding: 8.7em 6em 3em;
+}
+.contact-flex{
+  @extend .flex;
+  align-items: flex-start;
+}
+.contact-submit{
+  background-color: $main-color!important;
+  transition:1s;
+  text-transform: uppercase;
+  margin-left:auto;
+  color:white!important;
+  border:0!important;
+  z-index: 1;
 
+}
+.contact-submit:hover{
+  background-color: $main-color-2!important;
+  cursor: pointer;
+}
+.contact-submit-hover{
+  position: absolute;
+  height: 2.7em;
+  width: 11.6em;
+  background-color: transparent;
+  margin-top: 17.7em;
+  right: 6em;
+  border: 0.01em solid $main-color-2;
+  z-index: 0;
+  transition:0.5s;
+}
+.contact-submit:hover + .contact-submit-hover {
+  margin-top: 18.3em;
+  right: 5.5em;
+}
+.contact-text-5{
+  width: 13em;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.9em;
+  letter-spacing: 0.09em;
+  line-height: 1.8em;
 }
