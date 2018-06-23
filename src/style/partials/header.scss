@@ -95,8 +95,8 @@
 #header{
   .hamburger{
     .line{
-      width: 2.6em;
-      height: 0.39em;
+      width: 2.4em;
+      height: 0.3em;
       background-color: $main-color;
       display: block;
       margin: 0.7em auto;
@@ -107,7 +107,7 @@
     }
     .line2{
       width: 1.7em;
-      height: 0.39em;
+      height: 0.3em;
       background-color: $main-color-2;
       display: block;
       margin-left: auto;
@@ -125,21 +125,24 @@
   }
   #hamburger-3.is-active .line:nth-child(1),
   #hamburger-3.is-active .line:nth-child(3){
-    width: 3.3em;
+    width: 1.8em;
   }
   #hamburger-3.is-active .line:nth-child(1){
-    -webkit-transform: translateX(-0.4em) rotate(-45deg);
-    -ms-transform: translateX(-0.4em) rotate(-45deg);
-    -o-transform: translateX(-4em) rotate(-45deg);
-    transform: translateX(-0.6em) rotate(-45deg);
+    -webkit-transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
+    -ms-transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
+    -o-transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
+    transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
+    margin: 0 auto;
   }
   #hamburger-3.is-active .line2:nth-child(2){
-    width: 3.3em;
+    width: 3em;
+    background-color:$main-color;
   }
   #hamburger-3.is-active .line:nth-child(3){
-    -webkit-transform: translateX(0.4em) rotate(45deg);
-    -ms-transform: translateX(0.4em) rotate(45deg);
-    -o-transform: translateX(0.4em) rotate(45deg);
-    transform: translateX(-0.6em) rotate(45deg);
+    -webkit-transform: translateX(-1em) rotate(45deg) translateY(-0.2em);
+    -ms-transform: translateX(-1em) rotate(45deg) translateY(-0.27em);
+    -o-transform: translateX(-1em) rotate(45deg) translateY(-0.27em);
+    transform: translateX(-1em) rotate(45deg) translateY(-0.27em);
+    margin: 0 auto;
   }
 }

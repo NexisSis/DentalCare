@@ -56,12 +56,12 @@
 }
 .testimonials-arrow-1{
   margin-right: 1.5em;
-  width: 2.5em;
+  width: 2.2em;
 }
 
 .testimonials-arrow-2{
   margin-left: 1.5em;
-  width:2.5em;
+  width:2.2em;
 }
 #testimonials-counter{
   font-size: 3em;
@@ -82,4 +82,27 @@
     overflow: hidden;
     margin-left: 0.25em;
   }
+}
+
+//carousel
+
+
+.jcarousel-wrapper {
+  width: 100%;
+}
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+.jcarousel ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align:center
+}
+.jcarousel li {
+  float: left;
+  width: 39em;
 }
