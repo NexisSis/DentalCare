@@ -62,11 +62,9 @@
                 target: '+=1'
             });
 
-        $('.jcarousel-pagination').jcarouselPagination({
-            item: function(page) {
-                return '<a href="#' + page + '">' + page + '</a>';
-            }
-        });
+        var a;
+        console.log($('.jcarousel-pagination').perPage(a));
+        console.log(a);с
         // $('.testimonials-total-counter')({
         //         return jcarouselPagination.perPage;
         // );
