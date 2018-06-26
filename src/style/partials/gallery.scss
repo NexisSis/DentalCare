@@ -59,10 +59,10 @@
 }
 .gallery-img-1{
   margin-right: 4.7em;
-  width: 25.5em;
+  width: 25.3em;
 }
 .gallery-img-2{
-  width: 25.5em;
+  width: 25.3em;
 }
 .gallery-horizontal-line{
   position: absolute;
@@ -89,4 +89,26 @@
   font-weight: 500;
   font-size: 1.8em;
   letter-spacing: 0.4em;
+}
+
+//gallery carousel
+
+.gallery-jcarousel-wrapper {
+  width: 100%;
+}
+.gallery-jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-jcarousel ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align:center
+}
+.gallery-jcarousel li {
+  float: left;
+  width: 55.7em;
 }

@@ -1,5 +1,8 @@
 #main{
 }
+.h1-mobile{
+  display: none;
+}
 .h1-descr{
   transform: rotate(270deg);
   display: block;
@@ -95,4 +98,7 @@
 .main-logo-2{
   margin-left: 3em;
   width: 4em;
+}
+.main-horizontal-line-mobile{
+  display: none;
 }

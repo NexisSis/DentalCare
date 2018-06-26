@@ -87,14 +87,14 @@
 //carousel
 
 
-.jcarousel-wrapper {
+.testimonials-jcarousel-wrapper {
   width: 100%;
 }
-.jcarousel {
+.testimonials-jcarousel {
   position: relative;
   overflow: hidden;
 }
-.jcarousel ul {
+.testimonials-jcarousel ul {
   width: 10000em;
   position: relative;
   list-style: none;
@@ -102,7 +102,7 @@
   padding: 0;
   text-align:center
 }
-.jcarousel li {
+.testimonials-jcarousel li {
   float: left;
-  width: 39.95em;
+  width: 39.5em;
 }
