@@ -5,7 +5,7 @@
 //             wrap: 'both'
 //         });
 //
-//     $('.jcarousel-control-prev')
+//     $('.honors-jcarousel-control-prev')
 //         .on('jcarouselcontrol:active', function() {
 //             $(this).removeClass('inactive');
 //         })
@@ -17,7 +17,7 @@
 //             target: '-=1'
 //         });
 //
-//     $('.jcarousel-control-next')
+//     $('.honors-jcarousel-control-next')
 //         .on('jcarouselcontrol:active', function() {
 //             $(this).removeClass('inactive');
 //         })
@@ -127,3 +127,40 @@
 
 
 // Gallery Carousel Stop
+
+// Honors Mobile Carousel Start
+
+(function($) {
+    $(function() {
+        $('.honors-jcarousel')
+            .jcarousel({
+                vertical: true,
+                wrap: 'both'
+            });
+
+        $('.honors-jcarousel-control-prev')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '-=1'
+            });
+
+        $('.honors-jcarousel-control-next')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '+=1'
+            });
+    });
+})(jQuery);
+
+
+// Honors Mobile Carousel Stop

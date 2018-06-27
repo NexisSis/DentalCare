@@ -1,3 +1,6 @@
+.gallery-horizontal-line-mobile{
+  display: none;
+}
 .gallery-location-1{
   text-align: center;
   transform: rotate(270deg);
@@ -59,10 +62,10 @@
 }
 .gallery-img-1{
   margin-right: 4.7em;
-  width: 25.3em;
+  width: 24em;
 }
 .gallery-img-2{
-  width: 25.3em;
+  width: 24em;
 }
 .gallery-horizontal-line{
   position: absolute;
@@ -90,6 +93,7 @@
   font-size: 1.8em;
   letter-spacing: 0.4em;
 }
+
 
 //gallery carousel
 

@@ -13,3 +13,32 @@
 .honors-not-mobile{
   display: flex;
 }
+
+
+// Honors jcarousel mobile
+
+.honors-jcarousel-wrapper {
+  width: 65%;
+  margin: 7em auto;
+}
+.honors-jcarousel {
+  position: relative;
+  overflow: hidden;
+  height: 30em;
+}
+.honors-jcarousel ul {
+  width: 100%;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+.honors-jcarousel li {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10.5em;
+}

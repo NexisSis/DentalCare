@@ -21,3 +21,22 @@ $(function() {
 });
 
 
+//help onHover
+
+$(function(){
+    $('.help-bg-2').hover(function () {
+        $('.help-mobile-blur-1').css('filter','blur(2px)');
+    },function(){
+        $('.help-mobile-blur-1').css('filter','blur(0px)');
+    });
+    $('.help-bg-3').hover(function () {
+        $('.help-mobile-blur-2').css('filter','blur(2px)');
+    },function(){
+        $('.help-mobile-blur-2').css('filter','blur(0px)');
+    });
+    $('.help-bg-4').hover(function () {
+        $('.help-mobile-blur-3').css('filter','blur(2px)');
+    },function(){
+        $('.help-mobile-blur-3').css('filter','blur(0px)');
+    });
+});
