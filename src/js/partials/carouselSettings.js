@@ -64,14 +64,14 @@
                 target: '+=1'
             });
         // pagination init
-        $('#testimonials-total-counter').text($('.testimonials-jcarousel').jcarousel('items').length);
-        $('#testimonials-counter').text('01');
+        $('.testimonials-total-counter').text($('.testimonials-jcarousel').jcarousel('items').length);
+        $('.testimonials-counter').text('01');
 
 
         $('.testimonials-jcarousel-control-next,.testimonials-jcarousel-control-prev').click(function(){
             var target = $('.testimonials-jcarousel').jcarousel('target').index()+1;
             var firstNum = target<10?'0':'';
-            $('#testimonials-counter').text(firstNum+target);
+            $('.testimonials-counter').text(firstNum+target);
         });
 
     });

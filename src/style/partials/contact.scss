@@ -71,6 +71,9 @@
   background-color: $main-color;
 }
 #contact{
+  .testimonials-nav{
+    display: none;
+  }
   input,textarea{
     overflow: visible;
     background-color: #fff7ea05;

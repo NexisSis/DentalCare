@@ -131,9 +131,6 @@
     width: 1.8em;
   }
   #hamburger-3.is-active .line:nth-child(1){
-    -webkit-transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
-    -ms-transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
-    -o-transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
     transform: translateX(-1em) rotate(-45deg) translateY(0.27em);
     margin: 0 auto;
   }
@@ -142,9 +139,6 @@
     background-color:$main-color;
   }
   #hamburger-3.is-active .line:nth-child(3){
-    -webkit-transform: translateX(-1em) rotate(45deg) translateY(-0.2em);
-    -ms-transform: translateX(-1em) rotate(45deg) translateY(-0.27em);
-    -o-transform: translateX(-1em) rotate(45deg) translateY(-0.27em);
     transform: translateX(-1em) rotate(45deg) translateY(-0.27em);
     margin: 0 auto;
   }

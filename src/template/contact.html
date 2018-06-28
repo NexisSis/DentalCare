@@ -1,19 +1,29 @@
 <section id="contact">
     <div class="flex">
         <div class="half">
+            <div class="testimonials-nav half testimonials-wrapper ">
+                <div class="counter">
+                    <span class="testimonials-counter"></span><span class="testimonials-total">/<span class="testimonials-total-counter"></span></span>
+                </div>
+                <div class="testimonials-arrow">
+                    <a href="#" class="testimonials-jcarousel-control-prev"><img class="testimonials-arrow-1 " src="../img/arrow-back.png" alt="Arrow Back"></a>
+                    <a href="#" class="testimonials-jcarousel-control-next"><img class="testimonials-arrow-2" src="../img/arrow-next.png" alt="Arrow Next"></a>
+                </div>
+            </div>
             <div class="contact-wrapper wow fadeIn">
                 <h2 class="contact-text-1 ">Contact information</h2>
                 <div class="contact-location-1 flex">
                     <div class="contact-location-1-wrapper flex">
                         <div class="contact-text-2">230 East 79th Street, Office 1</div>
-                        <div class="contact-text-2"><img src="img/phone-2.png" alt="phone"> 212.396.3069</div>
+                        <div class="contact-text-2"><img src="img/phone-2.png" alt="phone"> <span class="smart-break-mobile">212.396.3069</span></div>
                         <div class="line-break contact-line-break-margin"></div>
-                        <div class="contact-text-2">57 W 57th St, Suite 703</div>
-                        <div class="contact-text-2"><img src="img/phone-2.png" alt="phone"> 212.688.3472</div>
+                        <div class="contact-text-2">57 W 57th St, <span class="smart-break-mobile">Suite 703</span></div>
+                        <div class="contact-text-2"><img src="img/phone-2.png" alt="phone"> <span class="smart-break-mobile">212.688.3472</span></div>
+                        <div class="line-break contact-line-break-margin smart-break-mobile"></div>
                     </div>
                 </div>
-                <div class="contact-location-2">
-                    <span class="contact-text-2">
+                <div class="contact-location-2 hide-mobile">
+                    <span class="contact-text-2 ">
                         Lorem ipsum dolor sit amet, ad elaboraret inciderint vim. Indoctum sapientem complectitur pri ex. Utamur feugiat eum et. Agam quodsi eu duo, has noster                          debitis erroribus ea.
                     </span>
                 </div>
@@ -36,7 +46,7 @@
                     <input required type="email" class="contact-email-input" name="email" placeholder="Email">
                     <input required type="tel" class="contact-tel-input" name="phone" placeholder="Phone">
                     <textarea required class="contact-message-input" name="message" placeholder="Message"></textarea>
-                    <div>
+                    <div class="contact-select-input">
                         <select required name="isNewClient">
                             <option selected="" disabled="" value="yes">New patient</option>
                             <option value="yes">Yes</option>

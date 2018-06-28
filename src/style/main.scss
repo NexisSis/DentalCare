@@ -9,6 +9,12 @@
 $main-color: #55bff1;
 $main-color-2:#90d7ed;
 
+.hide-mobile{
+  display: block;
+}
+.opacity{
+  opacity: 1!important;
+}
 body{
   font-size: 0.9375vw;
   background-color: white;
