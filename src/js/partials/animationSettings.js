@@ -4,8 +4,9 @@ new WOW().init();
 if($( window ).width() < 576){
     $('#header .hamburger').click(function () {
         $('#header .hamburger').toggleClass("is-active");
-
         $('#header .hover-menu-bg').toggleClass("opacity");
+        $('#header .logo').toggleClass("opacity-0");
+        $('#header .phone-mobile').toggleClass("opacity-0");
     });
 }else{
     $(function() {

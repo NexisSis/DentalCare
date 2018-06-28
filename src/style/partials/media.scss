@@ -1,4 +1,7 @@
 @media(max-width: 576px){
+  .show-mobile{
+    display: inherit;
+  }
   .half{
     width:100%;
   }
@@ -21,6 +24,9 @@
     display: none;
   }
   #header{
+    .hover-menu-mobile{
+      text-align: center;
+    }
     #hamburger-3.is-active .line:nth-child(1){
       transform: translateY(1.59em) rotate(45deg);
       width: 8em;
