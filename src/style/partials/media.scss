@@ -173,6 +173,10 @@
     .about-img-1{
       width: 64em;
     }
+    .about-img-2{
+      content:url('../img/about-img-1-mobile.png');
+      height: 81em;
+    }
     .about-margin-top-1{
       margin-top:1.2em;
     }
@@ -180,6 +184,14 @@
       font-size: 4em;
       letter-spacing: 0.05em;
       line-height: 2.2em;
+    }
+    .about-text-2{
+      color: white;
+      font-size: 5.4em;
+      margin-top: 1em;
+      position: absolute;
+      padding: 0 2.5em;
+      margin-left: -1.4em;
     }
     .about-margin-top-2{
       margin-top:0;
@@ -295,7 +307,7 @@
        order:1;
     }
     .gallery-wrapper{
-      padding: 4em 7em;
+      padding: 4em 5em;
     }
     .gallery-nav{
       order:2;
@@ -305,10 +317,98 @@
     }
     .gallery-location-3{
       order:4;
+      text-align: center;
     }
     .gallery-text-3{
-      font-size: 2.2em;
-      letter-spacing: .23em;
+      font-size: 5em;
+      letter-spacing: .2em;
+    }
+    .counter{
+      margin-top: 1em;
+    }
+    #gallery-counter{
+      font-size: 9em;
+    }
+    .gallery-total{
+      font-size: 5em;
+      margin-top: -2.4em;
+      margin-left: 1.8em;
+      font-weight: 500;
+    }
+    .gallery-arrow-1 {
+      margin-right: 12em;
+      width: 9em;
+      height: 2em;
+    }
+    .gallery-arrow-2 {
+      margin-left: 0;
+      width: 9em;
+      height: 2em;
+    }
+    .gallery-jcarousel li {
+      width: 95em;
+    }
+    .gallery-img-1{
+      margin-right: 0;
+    }
+    .gallery-img-2{
+      margin-top:5em;
+    }
+    .gallery-img-1,.gallery-img-2{
+      height: 45em;
+      width: 96%;
+    }
+    .gallery-horizontal-line {
+      width: 14em;
+      margin-left: -1em;
+      border-bottom: 0.5em solid #90d8ee;
+      margin-top: -.3em;
+      transform: rotate(90deg);
+    }
+    .gallery-text-2{
+      font-size: 3.7em;
+      line-height: 1.4em;
+      letter-spacing: 0.1em;
+    }
+    .gallery-bg{
+      background-image:url(../img/gallery-bg-mobile.png);
+      background-size: cover;
+    }
+    .gallery-flag {
+      display: block;
+      height: 0;
+      width: 0;
+      border-right: 15em solid #fff;
+      border-top: 3em solid #fff;
+      border-left: 2em solid transparent;
+      border-bottom: 3em solid #fff;
+      position: absolute;
+      top: 7em;
+      margin-left: 37em;
+    }
+    .gallery-flag-2{
+      display: block;
+      height: 0;
+      width: 0;
+      border-right: 15em solid #fff;
+      border-top: 3em solid #fff;
+      border-left: 2em solid transparent;
+      border-bottom: 3em solid #fff;
+      position: absolute;
+      top: 57em;
+      margin-left: 37em;
+    }
+    .gallery-text-4{
+      font-size: 4em;
+      display: block;
+      margin-top: -0.75em;
+      margin-left: 0.7em;
+      font-weight: bold;
+      color: $main-color;
+    }
+    .gallery-text-5{
+      @extend .gallery-text-4;
+      margin-left: 0.4em;
     }
   }
 }
