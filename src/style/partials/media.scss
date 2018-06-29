@@ -23,7 +23,42 @@
   .hide-mobile{
     display: none;
   }
+
+
   #header{
+    .hover-menu-mobile{
+      a{
+        font-weight: 500;
+        display: block;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      a:hover{
+        text-decoration: unset;
+      }
+       li{
+          margin-top: 1.4em;
+          font-size: 5.5em;
+         ul{
+           margin-top: 0.2em;
+           position: relative;
+           opacity: 1;
+           li{
+             font-size: 0.87em;
+             margin-top: -0.6em;
+             margin-bottom: 0.1em;
+             a{
+               font-size: .8em;
+               letter-spacing: 0.13em;
+             }
+             a:hover:after,a:hover:before{
+               border:unset;
+             }
+           }
+         }
+      }
+    }
     .hover-menu-mobile{
       text-align: center;
     }
@@ -44,6 +79,7 @@
       max-height: 100vh;
       min-height: 75em;
       z-index: 1;
+      padding-top: 10em;
     }
     .header-wrapper{
       padding-top:6.5em;
